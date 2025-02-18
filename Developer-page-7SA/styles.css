@@ -77,3 +77,8 @@ font-size: 3.8rem;
 background-color: var(--primario);
 color:var(---oscuro)
 }
+.hero{
+    background-image:url("/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover cubre la imagen todo el tamaño posible */
+}
