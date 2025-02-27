@@ -6,16 +6,16 @@ window.addEventListener('scroll',()=> {
     header.classList.toggle('shadow',window.scrollY> 0);
 
 });
-//  Meni
+//  Menu
 let menu= document.querySelector('#menu-icon');
 let navbar= document.querySelector('.navbar');
 
-menu.onclick = () => {
+menu.onclick = () => { //Evento click muestre boton x
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 
 }
-window.onscroll= () =>{
+window.onscroll= () =>{//Evento click muestre boton x
     menu.classList.remove('bx-x');
     navbar.classList.remove('active')
 }
@@ -23,10 +23,10 @@ window.onscroll= () =>{
 const sr = ScrollReveal({
     origin:'top', 
     distance: '60px'  ,
-    duration: 2500,
+    duration: 8000,
     delay:400,
     //reset: true
-})
+}) //Pone las animaciones dependiendo en donde se requiera
 sr.reveal('.home-text, .buds-text',{origin: 'left'});
 sr.reveal('.home-img,.buds-img',{origin: 'right'});
 sr.reveal('.heading',{delay: 200});

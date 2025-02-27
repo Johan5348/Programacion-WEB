@@ -9,8 +9,8 @@
     scroll-behavior: smooth;
     list-style: none;
     text-decoration:none;
-}
-:root{
+} 
+:root{ /* Variables de colores*/
  --text-color:#161616;
  --hover-color:hsl(0,0%,14%);
  --bg-color:#fff;
@@ -23,7 +23,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: 2rem;
 background: var(--text-color);
 }
-img{
+img{ /*Ajusta las imagenes al contenedor*/
     width: 100%;
 }
 body{
@@ -48,7 +48,7 @@ header{
     left: 0%;
     z-index: 100;
 }
-header.shadow{
+header.shadow{ /*Le añade como un cuadro al header*/
     background: var(--bg-color);
     box-shadow:  1px 2px 4px rgb(15, 54, 55/10%);
     transition: 0.2s;
@@ -82,7 +82,7 @@ header.shadow{
 
 
 }
-.navbar a:hover{
+.navbar a:hover{ /*Cambiar color de letras cuando se pone el mouse encima*/   
     color:var(--text-color)
 }
 /*Home*/
@@ -114,7 +114,7 @@ header.shadow{
     font-size: 1.4rem;
 
 }
-.btn:hover{
+.btn:hover{ /*Añade estilo al paso del cursor*/
     background: var(--hover-color);
 }
 .heading{
@@ -153,7 +153,7 @@ header.shadow{
     display: grid;
     grid-template-columns: repeat(3,164px);
     justify-content: center;
-    gap: 3rem;
+    gap: 8rem;
 }
 .shop-container .box{
     position: relative;
@@ -201,7 +201,7 @@ display: grid;
 grid-template-columns: 250px max-content;
 justify-content: center;
 align-items: center;
-column-gap: 4rem;
+column-gap: 8rem;
 background: var(--hover-color);
 color: var(--bg-color);
 border-radius: 0.5rem;
@@ -223,8 +223,10 @@ border-radius: 0.5rem;
     margin: 1rem 0 1rem;
 }
 .buds-text .btn:hover{
-    background: hsl(0, 0%, 10%);
+    background: red;
 }
+
+
 .footer{
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(170px,auto));
@@ -272,14 +274,14 @@ social .bx:hover{
         width: 90%;
     }
 }
-    @media(max-width:1080px){
+    @media(max-width:1080px){  /*Responsive ajustar tamaño de acuerdo al tamaño del dispositivo*/
         section{
             padding: 50px 0;
         }
 .home-text h1{
     font-size: 3rem;
 }
-    }@media(max-width:768px){
+    }@media(max-width:768px){ /*Responsive ajustar tamaño de acuerdo al tamaño del dispositivo*/
     .logo img {
         width:30px ;
     } 
@@ -287,7 +289,7 @@ social .bx:hover{
         display: initial;
         z-index: 150;
     }
-    .navbar{
+    .navbar{ /*Barra de navegacion*/
         position: absolute;
         top: 0;
         left: 0;
