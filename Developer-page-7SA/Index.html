@@ -84,33 +84,41 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, odit. Ut, repellat consequuntur debitis asperiores labore animi iste nisi corrupti, saepe fuga adipisci iure necessitatibus, esse molestias ea quibusdam optio?</p>
         </section>
     </div>
-</main>
+
 <section>
     <h2>Contacto</h2>
-    <form>
+    <form class="Formulario">
+        
 <fieldset>
     <legend>
-Llena tus datos para establecer contacto</legend>
-<div>
+Llena tus datos para establecer contacto
+</legend>
+<div class="contenedor-campos">
+<div class="Campo">
+
     <label>Nombre:</label>
     <input type="text"placeholder="Tu nombre">
 </div>
-<div>
+<div class="Campo">
     <label>Telefono:</label>
     <input type="tel"placeholder="Tu telefono">
 </div>
-<div>
+<div class="Campo">
     <label>Correo:</label>
     <input type="email"placeholder="Tu correo">
 </div>
-<div>
+<div class="Campo">
     <label>Mensaje:
         <textarea></textarea>
     </label>
 </div>
-<div>
-    <input type="submit" value ="Enviar">
 </div>
+<div class="Alinear-derecha flex">
+    <input class="boton w-sm-100" type="submit"value="Enviar">
+ 
+    
+</div>
+
 </fieldset>
     </form>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="40" height="40" stroke-width="1.5">
@@ -122,7 +130,8 @@ Llena tus datos para establecer contacto</legend>
         <path d="M4 16h3"></path>
       </svg>
 </section>
-<footer>
+</main>
+<footer class="footer">
     <p>Todos los derechos reservados 2025© Johan Tzab</p>
 </footer>
 </body>
