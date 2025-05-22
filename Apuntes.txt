@@ -1,0 +1,48 @@
+Que es git? Sistema de control de versiones
+
+Cual es la diferencia entre git y hub? GitHub es una plataforma que usa git
+
+Alternativas a GitHub:gitlab, bitbucket, gitkraken, codeberg, Sourceforge, gitbucket.
+
+Quien creo git y cuando? Linus Torvalds en 2005
+
+Que es json y si solo sirve para paginas web se utiliza para estructurar datos en forma de texto y permite el intercambio de información entre aplicaciones de manera sencilla, liviana y rápida. 
+no solo sirve para HTML, sino que es un formato de intercambio de datos que se utiliza en muchos contextos, incluyendo aplicaciones web y móviles. 
+
+que es un framwork es un conjunto de herramientas y librerías que se utilizan para desarrollar software
+
+Que es el Bootstrap es un framework de código abierto que permite construir páginas web y aplicaciones móviles
+
+Que es el adminlte es una plantilla de código abierto que se utiliza para crear paneles de administración para aplicaciones web. Sirve para proporcionar una interfaz de usuario atractiva y consistente. 
+
+alternativa a Bootstrap: tailwind css
+
+datatable
+tecnología recomendada para manejar tablas en web
+
+investigar que empresas en merida existen de desarrollo de web y que tecnologías usan
+
+springframework JAVA
+
+javascript no tiene nada que ver con java
+
+Normalize.css es un archivo CSS que hace que los navegadores representen los elementos HTML de manera consistente
+
+3 librerías de javascript para frontend
+React, Vue, Angular, jQuery, Three.js, y MapBoxGL JS,node.js
+
+a que empresa pertenece REACT: Meta
+
+Angular: Google
+
+Go y goland3
+Go  framework y golang es el lenguaje de programación
+
+Laravel es el framework de PHP
+
+RUBY lenguaje, Ruby on rails Framework para paginas web
+
+C# lenguaje de Microsoft, framework.net
+
+
+boxmodel: modelo de caja, los navegadores usen este modelo, solo es rectangular , tiene 4 paddind,border,content, margin es exerno 
